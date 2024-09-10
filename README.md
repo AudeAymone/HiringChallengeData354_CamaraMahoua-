@@ -1,6 +1,6 @@
 # HiringChallengeData354_CamaraMahoua-
 Ce repository repond au Hiring Challenge de Data354.
-Ce challenge répond à l'objectif de construire un ETL:
+Ce challenge répond à l'objectif de construire un ETL: /n
 -> Extraire les données horaires depuis l'API de AirQuino
 -> Calculer le CO et le PM2.5 moyen par jour de chaque capteur.
 -> Stocker les données résultantes dans une base de données (Cassandra ou mongoDB). Nous avons choisi mongoDB.
