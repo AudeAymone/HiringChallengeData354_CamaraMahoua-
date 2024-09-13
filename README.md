@@ -22,17 +22,17 @@ Les fichiers sont directement accessibles dans le fichier [Data](./Data).
 Voir [DataTreatment.ipynb](https://github.com/AudeAymone/HiringChallengeData354_CamaraMahoua-/blob/main/DataTreatment.ipynb).  
 
 ## Stockage des données sur MongoDB
-Ici, tout ce trouve également dans le fichier [DataTreatment.ipynb](https://github.com/AudeAymone/HiringChallengeData354_CamaraMahoua-/blob/main/DataTreatment.ipynb).     
-Par ailleurs, il est important de notifier que la chaine de connection de votre base de données est très importante pour le bon fonctionnement du script et la connexion effective à votre base de données peu importe la base de données choisi.  
+Vous trouverez le script correspondant dans le fichier [DataTreatment.ipynb](https://github.com/AudeAymone/HiringChallengeData354_CamaraMahoua-/blob/main/DataTreatment.ipynb).     
+Par ailleurs, il est important de notifier que la chaîne de connection de votre base de données est très importante pour le bon fonctionnement du script et la connexion effective à votre base de données peu importe la base de données choisie.  
 Assurez vous d'avoir MongoDB.  
-Vous pouvez accédez à la [version en ligne](https://www.mongodb.com/fr-fr/cloud/atlas/) (celle utilisée pour la réalisation de ce projet). Cela vos facilitera la tâche au niveau de la génération de la chaîne de connexion.
+Vous pouvez accédez à la [version en ligne de MongoDB](https://www.mongodb.com/fr-fr/cloud/atlas/) (celle utilisée pour la réalisation de ce projet). Cela vos facilitera la tâche au niveau de la génération de la chaîne de connexion.
 
 ## Dashboard Superset
 
 Apache Superset est un outil de visualisation de données open-source qui permet de créer des tableaux de bord interactifs et des graphiques à partir de diverses sources de données.  
 Il requiert d'être installé en localhost afin de l'utiliser.  
 Nous vous avons fourni [ce lien](https://superset.apache.org/docs/quickstart/) afin de l'installer par vous même.  
-Aussi, il est important de notifier que superset n'interagit pas nativement avec des données non relationnelles. Pour ce faire, nous avons installer apache drill qui représente une passerelle entre Apache Superset et MongoDb. Cliquez sur [ce lien](https://thedataist.com/visualize-anything-with-superset-and-drill/) afin d'avoir toute la docummentation requise pour l'installation.
+Aussi, il est important de notifier que superset n'interagit pas nativement avec des données non relationnelles. Pour ce faire, nous avons installé apache drill qui représente une passerelle entre Apache Superset et MongoDb. Cliquez sur [ce lien](https://thedataist.com/visualize-anything-with-superset-and-drill/) afin d'avoir toute la docummentation requise pour l'installation.
 
 Par la suite, il vous faudra connecter votre base de données mongo à Superset. Nous vous avons fourni [ce lien](https://www.youtube.com/watch?v=5wGcPiZCKgc&t=63s) qui résume toutes les étapes de pour la connexion. 
 
