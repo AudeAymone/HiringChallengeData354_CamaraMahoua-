@@ -216,7 +216,7 @@ metadata:
 
 _ Le CronJob exécutera automatiquement le script ETL à l'intervalle spécifié et dans un environnement conteneurisé, assurant une exécution isolée et scalable.
 
-## 4.Surveillance des Jobs et Alertes :  
+### 4.Surveillance des Jobs et Alertes :  
 **Logs et Monitoring :**  
 _ Capturez les logs d’exécution pour chaque déclenchement dans des fichiers log ou dans un système de gestion des logs centralisé (comme ELK ou Graylog).  
 _ Surveillez les erreurs, les échecs, et le temps d’exécution à l’aide de systèmes de monitoring comme Prometheus ou Grafana. Vous pouvez aussi utiliser les dashboards d’Airflow pour suivre les exécutions.  
@@ -225,15 +225,15 @@ _ Surveillez les erreurs, les échecs, et le temps d’exécution à l’aide de
 _ Configurez des alertes par e-mail ou via des outils comme Slack ou PagerDuty pour recevoir une notification instantanée en cas de panne ou d’échec du job ETL.  
 _ Dans Airflow, vous pouvez ajouter des notifications dans les default_args avec email_on_failure et email_on_retry.  
 
-## 5.Scalabilité et Optimisation :  
+### 5.Scalabilité et Optimisation :  
 _ Si vous anticipez une augmentation du volume de données, assurez-vous que votre infrastructure supporte la charge. Utilisez des instances cloud (comme AWS, GCP) capables de se scaler dynamiquement.  
 _ Optimisez les étapes de transformation et de chargement de votre pipeline pour réduire le temps d'exécution et garantir que le processus ETL soit terminé avant la prochaine exécution horaire.  
 
-## 6.Tests et Maintenance :    
+### 6.Tests et Maintenance :    
 _ Effectuez des tests réguliers de vos jobs ETL pour identifier des goulots d’étranglement ou des risques de défaillance à mesure que les volumes de données augmentent.  
 _ Préparez un plan de maintenance pour surveiller l’évolution des performances du système et ajuster les paramètres si nécessaire (par exemple, ajuster les intervalles de déclenchement ou les ressources allouées).  
 
-## 7.Versioning du Code :  
+### 7.Versioning du Code :  
 _ Utilisez un système de contrôle de version comme **Git** pour gérer les modifications du code ETL.  
 _ Déployez de nouvelles versions avec un pipeline CI/CD (comme **GitLab CI**, **Jenkins** ou **GitHub Actions**) qui intègre des tests automatiques et déploie les modifications en production en toute sécurité.
 
