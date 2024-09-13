@@ -2,11 +2,11 @@
 Ce repository repond au Hiring Challenge de Data354.
 Ce challenge répond à l'objectif de construire un ETL: 
 
--> Extraire les données horaires depuis l'API de AirQuino  
--> Calculer le CO et le PM2.5 moyen par jour de chaque capteur.  
--> Stocker les données résultantes dans une base de données (Cassandra ou mongoDB). Nous avons choisi mongoDB.  
--> Fournir un dashboard superset pour visualiser les données.  
--> Faire un modèle de ml qui fait du forecasting sur les 2 prochaines heures (Optionnel).  
+### -> Extraire les données horaires depuis l'API de AirQuino  
+### -> Calculer le CO et le PM2.5 moyen par jour de chaque capteur.  
+### -> Stocker les données résultantes dans une base de données (Cassandra ou mongoDB). Nous avons choisi mongoDB.  
+### -> Fournir un dashboard superset pour visualiser les données.  
+### -> Faire un modèle de ml qui fait du forecasting sur les 2 prochaines heures (Optionnel).  
 
 ## Extraction des données
 Pour l'extraction des données de l'Api Airquino, veuillez utiliser ces url:  
