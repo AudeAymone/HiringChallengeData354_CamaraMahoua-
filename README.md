@@ -238,7 +238,7 @@ _ Écrivez une fonction Cloud pour exécuter votre ETL.
 **Configurer Cloud Scheduler**  
 _ Configurez Cloud Scheduler pour déclencher la fonction Cloud toutes les heures.  
 
-### Surveillance et Gestion  
+### 5.Surveillance et Gestion  
 **Logs**: Assurez-vous que les logs de votre ETL sont capturés pour surveiller les erreurs et les performances.  
 **Alertes**: Configurez des alertes pour les échecs d'exécution ou les problèmes de performance.  
 
