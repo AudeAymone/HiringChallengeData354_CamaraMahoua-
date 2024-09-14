@@ -32,9 +32,10 @@ Vous pouvez accédez à la [version en ligne de MongoDB](https://www.mongodb.com
 Apache Superset est un outil de visualisation de données open-source qui permet de créer des tableaux de bord interactifs et des graphiques à partir de diverses sources de données.  
 Il requiert d'être installé en localhost afin de l'utiliser.  
 Nous vous avons fourni [ce lien](https://superset.apache.org/docs/quickstart/) afin de l'installer par vous même.  
-Aussi, il est important de notifier que superset n'interagit pas nativement avec des données non relationnelles. Pour ce faire, nous avons installé apache drill qui représente une passerelle entre Apache Superset et MongoDb. Cliquez sur [ce lien](https://thedataist.com/visualize-anything-with-superset-and-drill/) afin d'avoir toute la docummentation requise pour l'installation.
+Aussi, il est important de notifier que superset n'interagit pas nativement avec des données non relationnelles. Pour ce faire, nous avons installé apache drill qui représente une passerelle entre Apache Superset et MongoDb. Cliquez sur [ce lien](https://medium.com/@thoren.lederer/query-data-from-mongodb-in-apache-superset-with-the-help-of-apache-drill-full-tutorial-b34c33eac6c1) afin d'avoir toute la docummentation requise pour l'installation et le lien avec Apache Superset.
 
-Par la suite, il vous faudra connecter votre base de données mongo à Superset. Nous vous avons fourni [ce lien](https://www.youtube.com/watch?v=5wGcPiZCKgc&t=63s) qui résume toutes les étapes de pour la connexion. 
+Pour notre part, nous avons rencontré des problèmes au niveau de la connexion de Apache Drill et Apache Superset.  
+Voici les captures qui attestent du niveau atteint: 
 
 ## Modèle de prediction  
 Pour le modèle de prédiction, nous avons choisi Tensorflow puisque nous l'avons déjà utilisé auparant pour d'autres projets.  
